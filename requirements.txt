@@ -1,0 +1,11 @@
+# Core
+ultralytics>=8.2.0
+opencv-python>=4.9.0
+
+# PyTorch - install a CUDA-enabled build for GPU training/inference.
+# The line below installs CPU-only torch by default. For CUDA, instead run
+# (pick the command matching your installed CUDA version from
+# https://pytorch.org/get-started/locally/), for example CUDA 12.1:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.2.0
+torchvision>=0.17.0
